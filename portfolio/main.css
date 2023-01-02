@@ -1,0 +1,12 @@
+.tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    margin-top: auto;
+  }
+
