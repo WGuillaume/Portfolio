@@ -1,12 +1,26 @@
-.tooltip {
-    --bs-tooltip-bg: var(--bs-primary);
-  }
-  .card-body {
-    display: flex;
-    flex-direction: column;
-  }
+.photoprofile
+{
+  display: flex;
+  align-items:center;
+  margin: auto;
+  width : 80%;
+  height :85vh;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+
+.tooltip 
+{
+  --bs-tooltip-bg: var(--bs-primary);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
   
-  button {
-    margin-top: auto;
-  }
+button 
+{
+  margin-top: auto;
+}
 
