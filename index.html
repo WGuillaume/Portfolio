@@ -1,4 +1,4 @@
-<!doctype html>
++<!doctype html>
 <html lang="fr">
 
 <head>
@@ -23,318 +23,245 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="portfolio/main.css" rel="stylesheet">
   <title>Weidmann guillaume Portfolio</title>
-  <!-- raccourcis pour les yeux maj + alt + f
-Très petite     < 576   px aucun  Petit Smartphone
-Petite          ≥ 576   px -sm    Smartphone
-Moyenne         ≥ 768   px -md    Tablette
-Grande          ≥ 992   px -lg    Grande tablette et PC 13’’
-Très grande     ≥ 1200  px-x      lÉcran 15’’
-Très très grande  ≥1400 px-xxl    Écran > 15’’ -->
-
-  <!-- 
-La margin   m   =permet quant à elle de créer un espace supplémentaire à l'extérieur de l'élément
-Le padding  p   =permet de créer un espace supplémentaire à l'intérieur d'un élément
-
-t=top
-b=bottom
-r=right
-l=left
-
-y=Vertical 
-x=Horizontal
--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <!-- header -->
+<header class="">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand text-uppercase fw-bold" href="#">
+        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Guillaume</span> Weidmann
+      </a>
+              <div class="col-4 col-md-4 text-md-end">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a href="https://github.com/WGuillaume" target="_blank" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+              title="GitHub ">
+              <i class="fab fa-github fa-2x"></i>                
+            </a>
+          </li>
+           <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/guillaume-weidmann-b370b7262/" target="_blank" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
 
-  <!-- Menu -->
-  <!-- py-4  pour le padding (marge interne). -->
-  <header class="py-4">
-
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand text-uppercase fw-bold" href="#">
-          <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Guillaume</span> Weidmann
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#guillaumeweidmann">Qui suis-je ?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Competence">Compétence</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Projet">Projet</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          </li>
+          <!-- <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+              <i class="fab fa-instagram-square fa-2x">
+              </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+              <i class="fab fa-twitter-square fa-2x">
+              </i>
+            </a>
+          </li> -->
+        </ul>
       </div>
-    </nav>
-  </header>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li>
+            <a href="portfolio/CV_WEIDMANN_GUILLAUME.pdf" class="btn btn-primary m-1 p-1"> Mon CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#guillaumeweidmann">Qui suis-je ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Competence">Compétence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projet">Projet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <main>
-    <!-- Qui je suis ? -->
-    <section id="guillaumeweidmann" class="py-5">
-      <div class="container">
-        <!-- gouttières gutters gy=Vertical gutters gx=Horizontal gutters -->
-        <div class="row gy-4 gy-md-O align-items-center">
-          <div class="col-12 col-md-6 fadeInLeft">
-            <h1 class="fw-bold">Je suis Guillaume Weidmann Concepteur dévelopeur d'application </h1>
-            <h2 class="fw-light">Bienvenue dans mon univers </h2>
-            <h4>Actuellement je suis en plein apprentissage de la programmation orienter objet, mon profil est orienter backend.</h4>
+</header>
+<!-- Main -->
+<main>
+<!-- Titre -->
+<section id="titre" class="py-5">
+  <div id=titre2 class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <h4></h4>
+        <h1>Déveleppeur d'application web<br>Full-stack responsive et Mobile</h1>
+      </div>
+      <div class="col-12 col-md-12">
+        <!-- <a href="portfolio/CV_WEIDMANN_GUILLAUME.pdf" class="btn btn-primary mt-5"> Mon CV</a>
+        <a href="#Competence" class="btn btn-primary mt-5">Mes Compétences </a>
+        <a href="#Projet" class="btn btn-primary mt-5">Mes Projets </a>
+        <a href="#Outils" class="btn btn-primary mt-5">Mes outils </a>
+        <a href="#contact" class="btn btn-primary mt-5">Mon Contact </a> -->
+      </div>
+    </div>
+</section>
+
+<!-- Qui je suis ? -->
+<section id="guillaumeweidmann" class="py-5 bg-light">
+  <div class="container">
+    <!-- gouttières gutters gy=Vertical gutters gx=Horizontal gutters -->
+    <div class="row gy-4 gy-md-O align-items-center">
+      <div class="col-12 col-md-6">
+        <h2 class="fw-bold">Bonjour, Bienvenue dans mon univers
+          <br><br>
+        </h2>
+        <!-- <h2 class="fw-light">Bienvenue dans mon univers </h2> -->
+        <h5 > Actuellement en plein apprentissage de la programmation orienter objet, mon profil est orienter backend.<br><br>
+          Dans ce portfolio, vous trouverez des exemples de mes projets les plus récents, y compris des applications web, des logiciels de bureau, 
+          des applications mobiles et des sites web. Vous pourrez voir comment j'ai utilisé différents langages de programmation, frameworks et outils pour
+          créer des solutions efficaces et personnalisées.<br><br>
+          Si vous êtes à la recherche d'un développeur pour votre projet, n'hésitez pas à me contacter pour discuter de vos besoins et voir comment je peux vous aider.</h5>
+        <br>
+      </div>
+      <div class="col-12 col-md-6">
+        <img id="photop" src="portfolio/portraittemp.jpg" alt="photo de Guillaume Weidmann" width="20%" height="10%">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mes Competence -->
+  <section id="Competence" class="py-5 ">
+    <div class="container">
+      <h2 class="text-center mb-0">Mes Compétence</h2>
+      <h3 class="text-center fw-light fs-5">Langages, Framework et Outils</h3>
+      <br>
+      <br>
+      <br>
+      <div class=" row d-flex">
+        <!-- Front-end -->
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 fadeInLeft">            
             <br>
-            <a href="portfolio/CV_WEIDMANN_GUILLAUME.pdf" class="btn btn-primary mt-5"> Mon CV</a>
-            <a href="#Competence" class="btn btn-primary mt-5">Mes Compétence </a>
-            <a href="#Projet" class="btn btn-primary mt-5">Mes Projet </a>
-            <a href="#contact" class="btn btn-primary mt-5">Mon Contact </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <img class="photoprofile" src="portfolio/portrait.jpg" alt="photo de Guillaume Weidmann" width="100%">
-          </div>
+            <div class=" d-flex justify-content-center">
+            <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img  src="portfolio/html.png" alt="HTML logo" loading="lazy" width="100%" height="auto"> 
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img  src="portfolio/css.png" alt="CSS logo" loading="lazy" width="100%" height="auto">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+               <img  src="portfolio/js.png" alt="JS logo" loading="lazy" width="100%" height="auto">
+             </div>
+            </div>
+            <div class=" d-flex justify-content-center">
+            <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/angular.png" alt="Angular logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img  src="portfolio/bootstrap.png" alt="bootstrap logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/ionic.png" alt="Ionic logo" loading="lazy" width="100%" height="auto%">
+             </div>
+            </div>
+            <div class=" d-flex justify-content-center">
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/logovide.png" alt="c# logo" loading="lazy" width="100%" height="auto%">
+               </div>
+            </div>
+            <br>
+            <h2 class="text-center">Front-end</h2>
+            <h3 class="text-center">Langages / Technos maitrisés</h3>
+            
+        </div>
+         <!-- Back-end -->
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 fadeInUp">
+          <br>
+          <div class=" d-flex justify-content-center">
+            <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/csharp.png" alt="c# logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/Java.png" alt="Java logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/sql.png" alt="Sql logo" loading="lazy" width="100%" height="auto%">
+             </div>
+            </div>
+            <div class=" d-flex justify-content-center">
+            <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img  src="portfolio/php.png" alt="php logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/symfony.png" alt="symfony logo" loading="lazy" width="100%" height="auto%">
+             </div>
+             <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/mysql.png" alt="MySql logo" loading="lazy" width="100%" height="auto%">
+             </div>
+            </div>
+            <div class=" d-flex justify-content-center">
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/SPRING.png" alt="Spring logo" loading="lazy" width="100%" height="auto%">
+               </div>
+               <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/nodejs.png" alt="nodejs logo" loading="lazy" width="100%" height="auto%">
+               </div>
+              </div>
+              <br>
+              <h2 class="text-center">Back-end</h2>
+              <h3 class="text-center">Langages / Technos maitrisés</h3>
+        </div>
+
+        <!-- Outils -->
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 fadeInRight">
+
+            <br>
+            <div class=" d-flex justify-content-center">
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/Git.png" alt="GitHub logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/postman.png" alt="Postman logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+              <img src="portfolio/docker.png" alt="Docker logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              </div>
+              <div class=" d-flex justify-content-center">
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/Visual Studio Code.png" alt="Visual Studio Code logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/Visual_Studio.png" alt="Visual Studio logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                <img src="portfolio/UML.png" alt="Visual Studio logo" loading="lazy" width="100%" height="auto%">
+              </div>
+              </div>
+              <div class=" d-flex justify-content-center">
+                <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                  <img src="portfolio/itleji.png" alt="Sql logo" loading="lazy" width="100%" height="auto%">
+                </div>
+                <div id="skillimage" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                  <img src="portfolio/Notion.png" alt="Notion logo" loading="lazy" width="100%" height="auto%">
+                </div>
+              </div>
+              <br>
+              <h2 class="text-center">Mes outils</h2>
+              <h3 class="text-center">Outils / Technos maitrisés</h3>
         </div>
       </div>
-    </section>
-
-
-    <!-- Mes Compétence -->
-    <section id="Competence" class="py-5 bg-light">
+    </div>
+  </section>
+  <!-- Mon Projet -->
+  <section id="Projet" class="py-5 bg-light" >
       <div class="container">
-        <h2 class="mb-0">Mes Compétence</h2>
-        <h3 class="fw-light fs-5">Langages et Outils</h3>
-        <!-- Developpement -->
-        <div class="row gy-4 mt-4 align-items-center">
-          <!-- Progress bar 1er Partie-->
-          <div class="col-12 col-md-7 ">
-
-            <!--  Progress bar HTML5 -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="min-width: 125px">
-                  <!-- <img class="php" src="portfolio/php.png" alt="php" width="100%"> -->
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">HTML5</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="75%">
-                    <div class="progress-bar" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--  Progress bar CSS3 -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-css3-alt fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">CSS3</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="50%">
-                    <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--  Progress bar JS -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-js fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">JS</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="25%">
-                    <div class="progress-bar" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--  Progress bar PHP -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="MAX-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-php fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">PHP</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="50%">
-                    <div class="progress-bar" style="width: 50%" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--  Progress bar Java -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-java fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">Java</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="60%">
-                    <div class="progress-bar" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- offset-{0-11}  qui va permettre de pousser de 0 à 11 colonne(s) sur la droite le contenu de la colonne sur laquelle vous ajoutez cette classe.  -->
-
-          <div class="col-12 offset-md-1 col-md-4">
-            <div class="row gy-4 ml-4 align-items-center">
-              <img src="portfolio/code.jpg" alt="photo de code" width="100%">
-            </div>
-          </div>
-        </div>
-
-        <!-- ///////////////////////////////////////////// -->
-        <!-- Design -->
-        <div class="row gy-4 mt-4 align-items-center">
-          <div class="col-12 col-md-4">
-            <img src="portfolio/design.jpg" alt="photo de l'ordinateur" width="100%">
-          </div>
-
-          <!-- Progress bar  2eme Partie-->
-          <div class="col-12 offset-md-1 col-md-7">
-
-            <!-- Progress bar Bootstrap -->
-            <div class="mb-3 p-3 bg-white ">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row" style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-bootstrap fa-2x me-2 text-primary "></i>
-                    <p class="fw-bold m-0" style="width: 80px">Bootstrap</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="90%">
-                    <div class="progress-bar w-90" style="width: 90%" role="progressbar" aria-valuenow="90"
-                      aria-valuemin="0" aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Progress bar SQL -->
-            <div class="mb-3 p-3 bg-white">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row " style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab bi bi-server fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">SQL</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="90%">
-                    <div class="progress-bar w-90" style="width: 90%" role="progressbar" aria-valuenow="90"
-                      aria-valuemin="0" aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Progress bar windows -->
-            <div class="mb-3 p-3 bg-white ">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row" style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-windows fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">Windows</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="80%">
-                    <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Progress bar wordpress -->
-            <div class="mb-3 p-3 bg-white ">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row" style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fab fa-wordpress fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">WordPress</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="90%">
-                    <div class="progress-bar" style="width: 90%" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Progress bar Vidéo -->
-            <div class="mb-3 p-3 bg-white ">
-              <div class="d-flex flex-row align-items-center">
-                <div class="d-flex flex-row" style="min-width: 125px">
-                  <div class="d-flex align-items-center">
-                    <i class="fas fa-video fa-2x me-2 text-primary"></i>
-                    <p class="fw-bold m-0" style="width: 80px">Vidéo</p>
-                  </div>
-                </div>
-                <div class="col p-1">
-                  <div class="progress" data-bs-toggle="tooltip" title="80%">
-                    <div class="progress-bar" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      </div>
-    </section>
-
-
-    <!-- Mon Projet -->
-    <section id="Projet" class="py-5">
-      <div class="container">
-        <h2 class="mb-0">Mes Projet</h2>
-        <h3 class="fw-light fs-5">Projets perso et pro</h3>
+        <h2 class="text-center mb-0">Mes Projet</h2>
+        <h3 class="text-center fw-light fs-5">Projets perso et pro</h3>
 
         <div class="row gy-4 gy-md-4 mt-4">
 
@@ -614,76 +541,74 @@ x=Horizontal
             </div>
           </div>
         </div>
+        
       </div>
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="mb-0">Me Contacter</h2>
-        <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
-        <!-- <h4>Vous pouvez me contacter par email :<a href="mailto:guillaume.weidmann@gmail.com">guillaume.weidmann@gmail.com</a></h4>  -->
-        <div class="row gy-4 mt-4 align-items-center">
-          <div class="col-12 col-md-5 ">
-            <img src="portfolio/cafe.jpeg" alt="Image d'une tasse de café" width="100%">
-          </div>
-          <div class="col-12 offset-md-1 col-md-6">
-            <div class="container">
-              <div class="row">
-              <!-- Formulaire -->
-                <div class="col align-self-center">
-                  <form id="myForm" class="row">
-                  <!-- name -->
-                    <div class="form-group col-6 my-2">
-                      <label for="name">Prénom</label>
-                      <input
-                      type="name"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="entez votre Prénom"
-                      />
-                    </div>
-                  <!-- subject -->
-                    <div class="form-group col-6 my-2">
-                      <label for="subject">Nom</label>
-                      <input
-                      type="text"
-                      name="subject"
-                      class="form-control"
-                      id="subject"
-                      placeholder="entez votre Nom"
-                      />
-                    </div>         
-                    <!-- email -->
-                    <div class="form-group col-12 my-2">
-                      <label for="email">Email addresse</label>
-                      <input
-                      type="email"
-                      name="email"
-                      class="form-control"
-                      id="email"
-                      placeholder="entez votre email"
-                      />
-                    </div>
-                    <div class="form-group col-12 my-2">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" id="message" name="message" rows="5"></textarea>
-                    </div>
-                    <div class="col-12 my-2">
-                      <button type="submit" class="btn btn-primary w-100">Envoyer</button>
-                    </div>
-                  </form>
+  </section>
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-0">Me Contacter</h2>
+    <h3 class="text-center fw-light fs-5">Vous souhaitez me contacter ? C'est ici que ça se passe !</h3>
+    <h5 class="text-center"><a href="mailto:guillaume.weidmann@gmail.com">guillaume.weidmann@gmail.com</a></h5>
+      <div class="row gy-4 mt-2 align-items-center">
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 ">
+        <img id="cafe" src="portfolio/cafe.jpeg" alt="Image d'une tasse de café" width="100%">
+      </div>
+      <div class="col-12 offset-md-1 col-md-5">
+        <div class="container">
+          <div class="row">
+          <!-- Formulaire -->
+            <div class="col align-self-center">
+              <form id="myForm" class="row">
+              <!-- name -->
+                <div class="form-group col-6 my-2">
+                  <label for="name">Prénom</label>
+                  <input
+                  type="name"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="entez votre Prénom"
+                  />
                 </div>
-              </div>
+              <!-- subject -->
+                <div class="form-group col-6 my-2">
+                  <label for="subject">Nom</label>
+                  <input
+                  type="text"
+                  name="subject"
+                  class="form-control"
+                  id="subject"
+                  placeholder="entez votre Nom"
+                  />
+                </div>         
+                <!-- email -->
+                <div class="form-group col-12 my-2">
+                  <label for="email">Email addresse</label>
+                  <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="entez votre email"
+                  />
+                </div>
+                <div class="form-group col-12 my-2">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                </div>
+                <div class="col-12 my-2">
+                  <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Email JS -->
+    </div>
+  </div>
+  </section>
+  <!-- Email JS -->
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
@@ -716,9 +641,9 @@ x=Horizontal
           );
         });
     </script>
-  </main>
+</main>
   <!-- Modal -->
-  <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
@@ -732,57 +657,57 @@ x=Horizontal
         </div>
       </div>
     </div>
+  </div> -->
+  <!-- Footer -->
+<footer class="border-top bg-light">
+  <div class="container-fluid py-3">
+    <div class="d-flex row gy-4 align-items-center">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <!-- <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+          <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Guillaume</span> Weidmann
+        </a> -->
+      </div>
+      <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-md-center">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+              data-bs-target="#mentionsLegales">© WEIDMANN Guillaume. Tous droits réservés.</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-md-end">
+        <ul class="list-inline mb-0">
+          <!-- <li class="list-inline-item">
+            <a href="https://github.com/WGuillaume" target="_blank" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+              title="GitHub ">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li> -->
+          <!-- <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/guillaume-weidmann-b370b7262/" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+              <i class="fab fa-instagram-square fa-2x">
+              </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+              <i class="fab fa-twitter-square fa-2x">
+              </i>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+
+      
+    </div>
   </div>
 
-  <!-- Floter -->
-  <footer class="border-top">
-    <div class="container py-5">
-      <div class="row gy-4 align-items-center">
-        <div class="col-12 col-md-4">
-          <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
-            <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Guillaume</span> Weidmann
-          </a>
-        </div>
-        <div class="col-12 col-md-4 text-md-center">
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
-                data-bs-target="#mentionsLegales">Mentions légales</a>
-            </li>
-          </ul>
-        </div>
-
-
-        <div class="col-12 col-md-4 text-md-end">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a href="https://github.com/WGuillaume" target="_blank" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
-                title="GitHub ">
-                <i class="fab fa-github fa-2x"></i>
-              </a>
-            </li>
-            <!-- <li class="list-inline-item">
-              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
-                <i class="fab fa-instagram-square fa-2x">
-                </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
-                <i class="fab fa-twitter-square fa-2x">
-                </i>
-              </a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
 
     <!-- script java pour tooltips -->
     <script>
@@ -792,7 +717,6 @@ x=Horizontal
       })
     </script>
     <!-------------------------------->
-  </footer>
-
+</footer>
 </body>
 </html>
